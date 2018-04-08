@@ -42,7 +42,7 @@ int main(int argc, char** argv)
     std::cin >> markup;
     std::cout << "You entered " << markup << std::endl;
     std::cout << std::endl;
-    std::cout << "Retail price for gallon of milk is " 
+    std::cout << "Retail price for " << description << " is " 
 	      << calculateRetail(cost, markup) << std::endl; 
     
     return EXIT_SUCCESS;
