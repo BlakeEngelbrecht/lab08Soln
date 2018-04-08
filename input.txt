@@ -1,0 +1,3 @@
+Gallon of milk
+1.5
+150
