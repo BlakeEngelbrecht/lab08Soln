@@ -50,6 +50,6 @@ int main(int argc, char** argv)
 
 double calculateRetail(double cost, double markup)
 {
-    return 0;
+    return cost + cost * markup / 100;
 }
 
